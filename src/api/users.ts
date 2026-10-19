@@ -5,4 +5,5 @@ export const usersApi = {
   me: (): Promise<AuthUser> => apiRequest<AuthUser>('/api/users/me'),
 };
 
+
 export const getMe = usersApi.me;
